@@ -1,0 +1,830 @@
+@media screen and (min-width:1600px) {
+    .container {
+        max-width: 1505px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width:1599px) {
+    .container {
+        max-width: 1320px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1399px) {
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .container {
+        max-width: 960px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media screen and (max-width:767px) {
+    .header-sec {
+        display: none;
+    }
+
+    .mobile-header-main {
+        display: block;
+        background: #000000;
+        padding: 19.5px 22px 19.5px 20px;
+    }
+
+    .mobile-header-inner-flex {
+        display: flex;
+    }
+
+    .mobile-header-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-menu-icon {
+        width: 23px;
+        height: 24px;
+        object-fit: contain;
+    }
+
+    .mobile-logo {
+        max-width: 107.03px;
+        height: 22px;
+        object-fit: contain;
+        margin-left: 13px;
+    }
+
+    .mobile-header-dropdown .mobile-header-dropdown-btn {
+        min-width: 103px;
+        width: 100%;
+        height: 33px;
+        background: #000000;
+        border: 1.5px solid #2460FF;
+        box-shadow: 0px 0px 12px 8px rgba(36, 96, 255, 0.4);
+        border-radius: 7px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #FCFCFD;
+        font-family: "Urbanist-Medium";
+        text-transform: capitalize;
+    }
+
+    .down-arrow {
+        width: 8px;
+        height: 4px;
+        object-fit: contain;
+        margin-left: 7px;
+    }
+
+    .mobile-header-dropdown-menu .MuiPaper-root {
+        background: rgba(23, 23, 23, 0.9);
+        top: 72px;
+        right: 0px;
+        border-radius: 0px;
+    }
+
+    .mobile-header-dropdown-menu .MuiMenu-list {
+        padding: 15px;
+    }
+
+    .mobile-header-dropdown-menu .mobile-header-menu-item {
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        font-family: "Urbanist-Medium";
+        margin-bottom: 13px;
+        padding: 0px;
+    }
+
+    .mobile-header-dropdown-menu .mobile-header-menu-item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .page-inner-main {
+        flex-direction: column;
+    }
+
+    .page-left-main {
+        display: none;
+    }
+
+    .page-right-main {
+        padding: 15px;
+    }
+
+
+    .tabs-main .tab {
+        text-transform: capitalize;
+        margin-right: 33px;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: flex-start;
+    }
+
+    .primary-btn-main .fa2-btn {
+        min-width: 130px;
+        height: 42px;
+    }
+
+    .page-main-box {
+        width: 100%;
+        box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+        padding: 20px;
+    }
+
+    .auth-right {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .auth-inner-main {
+        padding: 50px;
+    }
+
+    .auth-inner {
+        max-width: 100%;
+    }
+
+    .footer-sec {
+        padding: 50px 20px 30px 25px;
+    }
+
+    .footer-col .footer-para {
+        padding-top: 0px;
+    }
+
+    .footer-inner-main {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .private-sale-right-main {
+        padding: 30px 15px;
+    }
+
+    .private-sale-col-left {
+        max-width: 100%;
+        padding: 40px 20px;
+        flex: 0 0 100%;
+    }
+
+    .private-sale-main {
+        width: 100%;
+    }
+
+    .private-amount-main {
+        max-width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 25px 20px;
+    }
+
+    .private-sale-row {
+        flex-direction: column;
+    }
+
+    .user-dash-first-row-left {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .dash-token-value-box {
+        width: 60px;
+        height: 54px;
+    }
+
+    .dash-token-value-inner {
+        margin-right: 21.67px;
+    }
+
+    .user-dash-first-row {
+        flex-direction: column;
+    }
+
+    .price-card-main {
+        padding: 20px;
+        height: 382px;
+        margin-bottom: 15px;
+    }
+
+    .price-flex .card-price {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .price-flex {
+        justify-content: space-between;
+    }
+
+    .green-btn-main .running-btn {
+        min-width: 80px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .dash-token-value-main {
+        margin: 24px 0px 23px;
+    }
+
+    .dash-token-value-main .dash-token-time-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .dash-token-data-content .dash-token-data-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .dash-token-data-content .dash-token-data-price {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .price-card-inner .token-price-para {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 15px 0px 43px;
+    }
+
+    .dash-token-flex {
+        margin-top: 17px;
+    }
+
+    .green-btn-main .buy-token-btn {
+        width: 140px;
+        height: 36px;
+        padding: 9.65px 29px;
+        margin-right: 33px;
+    }
+
+    .user-dash-card-flex {
+        flex-direction: column;
+    }
+
+    .dashboard-card {
+        padding: 25px 20px 25px;
+        width: 100%;
+        max-width: 100%;
+        height: 188px;
+    }
+
+    .dashboard-card-3 {
+        margin-left: 0px;
+    }
+
+    .user-dash-first-row-right {
+        margin-left: 0px;
+    }
+
+    .dashboard-card-2 {
+        margin-bottom: 15px;
+    }
+
+    .dashboard-referral-col {
+        padding: 25px 20px;
+        height: auto;
+    }
+
+    .dashboard-referral-flex {
+        flex-direction: column;
+    }
+
+    .dashboard-referral-flex .dash-referral-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .dashboard-referral-flex .dash-referral-para {
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .dashboard-referral-flex .dash-view-text {
+        color: #5E55B8;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .grey-right-errow {
+        width: 9px;
+        height: 9px;
+    }
+
+    .dash-recent-main .dashboard-referral-flex {
+        flex-direction: initial;
+    }
+
+    .dash-transaction-inner .dash-tarasaction-titles {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .dash-transaction-inner .dash-tarasaction-lables {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .dash-trasction-box {
+        width: 24.91px;
+        height: 24px;
+    }
+
+    .dash-trasction-icons {
+        height: 10px;
+        width: 10px;
+    }
+
+    .dash-recent-main {
+        padding: 16px 20px 15px;
+        height: auto;
+    }
+
+    .dash-transaction-main:last-child {
+        margin-bottom: 0px;
+    }
+
+    .gradiant-border {
+        height: 5px;
+        width: 100%;
+    }
+
+    .dashboard-graph-flex {
+        margin: 15px 0px 15px;
+    }
+
+    .dash-card-content-flex {
+        margin-top: 50px;
+    }
+
+    .footer-col .footer-title {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .footer-nav-main .footer-nav-link {
+        margin-bottom: 13px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .bottom-footer-col {
+        margin-top: 0px;
+    }
+
+    .footer-nav-main .footer-nav-li:last-child .footer-nav-link {
+        margin-bottom: 8px;
+    }
+
+    .footer-privacy-main .footer-para {
+        font-size: 9px;
+        line-height: 17px;
+        padding-top: 14px;
+    }
+
+    .footer-col .footer-page-link {
+        margin-top: 16px;
+    }
+
+    .footer-social-main .footer-social-ul {
+        margin-top: 25px;
+    }
+
+    .page-right-main .page-titles {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 19px;
+    }
+
+    .text-btn-main .text-btn {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .text-btn-main .current-btn {
+        min-width: 69px;
+    }
+
+    .grey-btn-main .disable-btn {
+        max-width: 61px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .profile-main .profile-para {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .security-setting-main .page-mid-title {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 20px;
+    }
+
+    .profile-switch {
+        margin-bottom: 15px;
+    }
+
+    .switch-lable .MuiTypography-root {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .security-setting-main .manage-noti-text {
+        margin-top: 20px;
+    }
+
+    .profile-switch {
+        margin-bottom: 19px;
+    }
+
+    .primary-btn-main .profile-btn {
+        max-width: 130px;
+        height: 42px;
+    }
+
+    .profile-main {
+        margin-bottom: 10px;
+    }
+
+    .input-box .form-lable {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .error-text-main .red-error-text {
+        align-items: center;
+    }
+
+    .fa2-scanner-flex {
+        flex-direction: column;
+    }
+
+    .twofa-input-box .twofa-text-control input {
+        min-width: 88%;
+    }
+
+    .modal-twofa-inner {
+        padding: 30px 25px;
+    }
+
+    .modal .modal-inner {
+        width: 350px;
+    }
+
+    .modal-twofa-inner .twofa-modal-title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    .twofa-step-flex {
+        margin-bottom: 15px;
+    }
+
+    .primary-btn-main .twofa-btn {
+        max-width: 100%;
+    }
+
+    .twofa-scanner-main {
+        margin: auto;
+    }
+
+    .wallet-saccner-data .wallet-scanner-data-text {
+        margin-bottom: 15px;
+        margin-top: 17px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .wallet-copy-bg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .twofa-input-box {
+        margin-bottom: 30px;
+    }
+
+    .private-sale-final-main .private-sale-final-row .private-sale-final-col:nth-child(3n+1) {
+        padding-left: 17px;
+    }
+
+    .private-sale-final-col {
+        margin-bottom: 0px;
+    }
+
+    .private-sale-final-col .price-card-main {
+        margin-bottom: 10px;
+    }
+
+    .private-sale-data-main .private-sale-titles {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .private-sale-data-main .private-sale-para {
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .private-sale-flex {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .private-sale-usd-data {
+        margin-left: 10px;
+    }
+
+    .private-checkbox-main {
+        margin-bottom: 15px;
+    }
+
+    .private-sale-ckeckbox-flex {
+        flex-direction: column;
+    }
+
+    .private-sale-usd-box {
+        max-width: 195px;
+        height: 46px;
+    }
+
+    .private-amount-col {
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 28px;
+        width: 100%;
+        flex-direction: initial;
+        margin-right: 0px;
+    }
+
+    .private-amount-col:last-child {
+        margin-bottom: 0px;
+    }
+
+    .private-sale-col-left .private-amount-para {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 10px 0px 30px 0px;
+    }
+
+    .private-token-flex {
+        margin-top: 20px;
+    }
+
+    .private-sale-col-right {
+        /* flex: 1 1;
+        margin-left: 0px; */
+        display: none;
+    }
+
+    .wallet-modal .modal-wallet-inner {
+        padding: 30px 25px;
+    }
+
+    .wallet-modal .wallet-modal-title {
+        text-align: center;
+    }
+
+    .wallet-modal .wallet-modal-para {
+        font-family: 'Urbanist-Medium';
+    }
+
+    .primary-border-btn-main .wallet-cancel-btn {
+        height: 42px;
+        margin-bottom: 10px;
+    }
+
+    .primary-btn-main .wallet-refresh-btn {
+        height: 42px;
+    }
+
+    .wallet-btn-modal-flex {
+        flex-direction: column;
+    }
+
+    .wallet-btn-modal-flex .primary-border-btn-main,
+    .wallet-btn-modal-flex .primary-btn-main {
+        width: 100%;
+    }
+
+    .wallet-modal .wallet-modal-subpara {
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+
+    .wallet-scanner-flex {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .wallet-saccner-data {
+        width: 100%;
+    }
+
+    .wallet-input-box .wallet-text-control input {
+        min-width: initial;
+    }
+
+    .wallet-input-box .wallet-text-control input::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 190px;
+    }
+
+    .private-payment-modal .payment-modal-inner {
+        padding: 30px 25px;
+    }
+
+    .payment-modal-inner .payment-modal-title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    .payment-modal-inner .payment-modal-para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .payment-modal-flex {
+        flex-direction: column;
+    }
+
+    .payment-modal-radio-box1 {
+        margin-bottom: 10px;
+    }
+
+    .payment-modal-radio-box {
+        max-width: 100%;
+    }
+
+    .payment-error-flex {
+        align-items: center;
+    }
+
+    .payment-checkbox-main {
+        align-items: flex-start;
+    }
+
+    .primary-btn-main .payment-buy-token-btn {
+        max-width: 100%;
+        height: 39px;
+    }
+
+    .private-card-main {
+        max-width: 100%;
+        /* min-height: 453px; */
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .private-token-value-box {
+        width: 140px;
+    }
+
+    .private-sale-wallet-main .private-sale-wallet-row .private-card-wallet-col:nth-child(3n+1) {
+        padding-left: 0px;
+    }
+    .wallet-btn-flex .primary-border-btn-main {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wallet-btn-flex .primary-btn-main {
+        width: 100%;
+    }
+
+    .private-wallet-inner {
+        padding: 30px 25px;
+    }
+
+    .modal-wallet-flex {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .modal-wallet-flex .modal-wallet-lable {
+        max-width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .wallet-modal-input-box .wallet-text-control input {
+        min-width: 273px;
+        height: 33px;
+    }
+
+    .wallet-modal-input-box .wallet-text-control input::placeholder {
+        max-width: 223px;
+    }
+
+    .modal-wallet-box {
+        min-width: 100%;
+        padding: 9px 17px;
+    }
+
+    .primary-btn-main .wallet-Request-btn,
+    .primary-btn-main .wallet-Request-btn:hover {
+        margin-left: 0px;
+    }
+    .private-card-row{
+        flex-direction: column;
+    }
+    .private-card {
+        padding: 25px 20px;
+        height: auto;
+    }
+    .private-card-flex {
+        max-width: 100%;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+        flex: 0 0 100%;
+    }
+    .private-card-content .private-price-text {
+        margin-bottom: 15px;
+    }
+    .private-card-row{
+        margin: 0px;
+    }
+    .private-wallet-inner .private-wallet-modal-para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .private-card-1 {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .private-card-2 , .private-card-3{
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .grey-btn-main .withdrow-btn {
+        width: 140px;
+        height: 36px;
+        margin-right: 0px;
+    }
+    .private-sale-wallet-main{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .private-card-wallet-col{
+        padding-right: 0px;
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
+    .private-sale-wallet-row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .primary-btn-main .locked-btn, .primary-btn-main .locked-btn:hover {
+        margin-left: 0px;
+    }
+    .private-card-wallet-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .private-card-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: initial;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:374px) {}

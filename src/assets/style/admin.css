@@ -1,0 +1,964 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins/poppins-bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+
+
+
+
+.grid-main .grid-item {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.page-bg {
+  background-image: linear-gradient(140deg, #000000, #004dd1 180%);
+}
+
+.flex-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group .form-control input {
+  border: 1px solid #E6EFFB;
+  border-radius: 3px;
+  width: 100%;
+  padding: 9.5px 10px;
+  background-color: transparent;
+}
+.form-group .form-control input::placeholder {
+  color: #495463B2;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Urbanist-Regular";
+  opacity: 1;
+}
+
+.form-group .form-control .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+  border-width: 0px;
+}
+
+fieldset {
+  border: 0px;
+}
+
+.btn-main .btn,
+.btn-main .btn:hover {
+  /* background: linear-gradient(45deg, #004dd1, #00d2ca); */
+  background-color: #004dd1;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 380px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins-Regular";
+  height: 44px;
+  text-transform: capitalize;
+}
+
+.border-btn-main .border-btn {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 6px 14px 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  font-family: "Poppins-Regular";
+  text-transform: capitalize;
+}
+
+.border-btn-main .border-btn:hover {
+  background-color: transparent;
+  padding: 6px 14px 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  min-width: 100px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.common-para {
+  font-size: 14px !important;
+  line-height: 21px !important;
+  font-family: "Poppins-Regular";
+}
+
+/* start admin login css */
+.center-logo-login {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-login-main {
+  margin: auto;
+  max-width: 380px;
+  width: 100%;
+}
+
+.admin-login-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-btn-main .login-btn {
+  margin-top: 28px;
+}
+
+.checkbox-main .checkbox-lable {
+  color: #6b7280;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.checkbox-lable .MuiCheckbox-root {
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.checkbox-lable .MuiFormControlLabel-label {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.admin-login-inner .admin-wel-text {
+  color: #111827;
+  font-size: 24px;
+  line-height: 25px;
+  font-family: "Poppins-Bold";
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.admin-login-inner .admin-sign-para {
+  margin-bottom: 32px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.input-box .form-lable {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  font-family: 'Poppins-Medium';
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #000000;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.admin-forgot-para {
+  color: #004dd1;
+}
+
+.input-box .MuiInputBase-root {
+  width: 100%;
+}
+
+.input-box .MuiInputBase-root fieldset:hover {
+  border-color: transparent;
+}
+
+.checkbox-main .MuiSvgIcon-root {
+  color: #004dd1;
+  width: 20px;
+  height: 20px;
+}
+
+/* column login start */
+.login-main-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.log-col-6 {
+  width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.login-left-image {
+  /* background: linear-gradient(226deg, #00b3a7, #000000); */
+  background-image: linear-gradient(140deg, #000000, #004dd1 180%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.center-logo-login .logo-admin {
+  min-height: 40px;
+}
+
+.card-login-main {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0px -1px 7px #ffffff;
+}
+
+/* column login end */
+
+/* end admin login css */
+
+/* start admin dashboard page structure css */
+
+.dashboard-left-main {
+  flex: 0 0 290px;
+  max-width: 290px;
+  width: 100%;
+}
+
+.dashboard-right-main {
+  flex: 1;
+}
+
+.dashboard-containt-main {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 88px 24px 24px 24px;
+}
+
+.dashboard-main {
+  display: flex;
+  width: 100%;
+}
+
+/* end admin dashboard page structure css */
+
+/* start admin sidebar css */
+
+.admin-sidebar-icons {
+  margin-right: 8px;
+}
+
+.admin-sidebar-main {
+  background: linear-gradient(157deg, #000000, #004dd1 207%);
+  /* background-color: #F3F4F6; */
+  height: 100vh;
+  left: 0;
+  overflow: auto;
+  padding: 0px 16px;
+  position: fixed;
+  top: 0;
+  width: 290px;
+  z-index: 999;
+  border-right: 1px solid #e5e7eb;
+}
+
+.admin-sidebar-logo {
+  max-width: 130px;
+  height: 64px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.admin-sidebar-logo-main {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.admin-sidebar-list-main .admin-sidebar-list {
+  padding: 0px;
+}
+
+.admin-sidebar-list-main .admin-sidebar-listitem {
+  padding: 0px;
+}
+
+.admin-sidebar-list-main .admin-sidebar-link {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins-Medium";
+  color: #ffffff;
+  display: flex;
+  padding: 10px 12px 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.admin-sidebar-list-main .admin-sidebar-link.active {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.admin-sidebar-list-main .admin-sidebar-link.active svg path {
+  fill: #000000;
+}
+
+/* end admin sidebar css */
+
+/* start admin header css */
+.drop-header {
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+}
+
+.drop-header-menu .MuiPaper-rounded {
+  box-shadow: 10px 10px 20px #0000001a;
+  border: 1px solid #e5e7eb;
+  margin-top: 13px;
+  border-radius: 1px;
+}
+
+.drop-header {
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+}
+
+.drop-header-menu .drop-header-menuitem {
+  font-size: 12px;
+  line-height: 14px;
+  color: #6b7280;
+  font-family: "Poppins-Regular";
+  border-bottom: 1px solid #e5e7eb;
+  padding: 11px 16px;
+}
+
+.drop-header-menu ul {
+  padding: 0px;
+}
+
+.admin-header-main {
+  background: linear-gradient(157deg, #000000, #004dd1 207%);
+  /* background-color: #FFFFFF; */
+  position: fixed;
+  top: 0px;
+  left: 290px;
+  right: 0px;
+  z-index: 9;
+  padding: 14px 20px 13px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.admin-header-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.admin-header-icon-box {
+  margin-right: 11px;
+  display: flex;
+}
+
+.admin-header-icon {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
+.admin-header-profile-icon {
+  height: 36px;
+  width: 36px;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.flex-drop-main {
+  display: flex;
+  align-items: center;
+}
+
+.flex-drop-main .admin-header-drop {
+  font-size: 12px;
+  font-family: "Poppins-Regular";
+  line-height: 18px;
+  color: #ffffff;
+  text-align: start;
+}
+
+.flex-drop-main .admin-drop-user {
+  font-size: 14px;
+  font-family: "Poppins-Bold";
+  line-height: 21px;
+  color: #6b7280;
+  text-align: start;
+}
+
+.admin-header-profile-box .admin-header-profile-icon
+/* end admin header css */
+
+
+/* start admin dashboard page */
+
+.dashboard-content .admin-page-title {
+  color: #111827;
+  font-size: 26px;
+  line-height: 39px;
+  font-family: "Poppins-SemiBold";
+}
+
+.admin-dashboard-inner-box {
+  border: 1px solid #d1d5db;
+  max-width: 245px;
+  width: 100%;
+  height: 90px;
+  border-radius: 6px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-dashboard-inner-box .admin-dash-text {
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins-Regular";
+}
+
+.admin-dashboard-inner-box .admin-dash-price {
+  color: #111827;
+  font-size: 30px;
+  line-height: 46px;
+  font-family: "Poppins-Medium";
+}
+
+.dash-icons {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.page-table-main .table-container {
+  padding-bottom: 7px;
+}
+
+.page-table-main .table {
+  margin: 0px 19px;
+}
+
+.page-table-main .table-th {
+  font-size: 12px;
+  line-height: 18px;
+  color: #111827;
+  font-family: "Poppins-Medium";
+  padding: 10px 10px 10px 0px;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.page-table-main .table .table-td:first-child {
+  color: #111827;
+}
+
+.page-table-main .table-td {
+  font-size: 12px;
+  line-height: 18px;
+  color: #6b7280;
+  font-family: "Poppins-Regular";
+  padding: 10px 10px 10px 0px;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.page-table-main .table .table-th:nth-child(1),
+.page-table-main .table .table-td:nth-child(1) {
+  width: 10%;
+}
+
+.page-table-main .table .table-th:nth-child(2),
+.page-table-main .table .table-td:nth-child(2) {
+  width: 10%;
+}
+
+.page-table-main .table .table-th:nth-child(3),
+.page-table-main .table .table-td:nth-child(3) {
+  width: 15%;
+}
+
+.page-table-main .table .table-th:nth-child(4),
+.page-table-main .table .table-td:nth-child(4) {
+  width: 15%;
+}
+
+.page-table-main .table .table-th:nth-child(5),
+.page-table-main .table .table-td:nth-child(5) {
+  width: 10%;
+}
+
+.admin-sub-title-main .admin-sub-title {
+  color: #111827;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Poppins-Medium";
+}
+
+.view-btn-main .view-order-btn {
+  height: 28px;
+  font-size: 12px;
+  line-height: 18px;
+  min-width: 100px;
+}
+
+.view-btn-main .view-order-btn:hover {
+  height: 28px;
+  font-size: 12px;
+  line-height: 18px;
+  min-width: 100px;
+}
+
+.admin-dashboard-table-row {
+  border-bottom: 1px solid #d1d5db;
+  padding: 20px 19px;
+}
+
+.admin-dash-box {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.admin-dashboad-row {
+  margin-bottom: 24px;
+}
+
+.display-row>* {
+  padding: 0px 8px;
+}
+
+.display-row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+/* end admin dashboard page */
+
+.table-lable-main {
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.paid-lable-dots {
+  background-color: #04ab47;
+}
+
+.paid-lable {
+  color: #04ab47;
+}
+
+.table-lable-dots {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.table-lable-flex {
+  display: flex;
+  align-items: center;
+}
+
+.failed-lable-dots {
+  background-color: #e4004d;
+}
+
+.failed-lable {
+  color: #e4004d;
+}
+
+.pending-lable-dots {
+  background-color: #f39c12;
+}
+
+.pending-lable {
+  color: #f39c12;
+}
+
+/* width */
+.page-table-main .table-container::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+}
+
+/* Track */
+.page-table-main .table-container::-webkit-scrollbar-track {
+  background: #d1d5db;
+  border-radius: 5px;
+}
+
+/* Handle */
+.page-table-main .table-container::-webkit-scrollbar-thumb {
+  background: #8888885c;
+}
+
+/* Handle on hover */
+.page-table-main .table-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* start add user page */
+
+.add-user-containt .add-basic-text {
+  color: #111827;
+  margin: 24px 0px 4px;
+}
+
+.add-user-containt .add-section-text {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.add-user-input .form-control input {
+  max-width: 506px;
+  padding: 5.5px 15px;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.add-user-input {
+  margin-bottom: 17px;
+}
+
+.add-user-input .form-control-textarea {
+  min-width: 1015px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  min-height: 100px;
+  resize: none;
+}
+
+.radio-main .radiogroup .MuiButtonBase-root.Mui-checked {
+  color: #004dd1;
+}
+
+.radio-main .MuiFormControlLabel-label {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins-Regular";
+}
+
+.user-btn-flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* end add user page */
+
+/*  start dropdown css  */
+
+.dropdown-box .form-control {
+  width: 100%;
+  position: relative;
+}
+
+.dropdown-box .form-control .dropdown-select {
+  border: 1px solid #d1d5db;
+}
+
+/* .dropdown-box .form-control svg{
+      display: none;
+} */
+.dropdown-select .MuiSelect-select {
+  padding: 6px 15px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Poppins-Medium";
+  display: flex;
+}
+
+.form-control fieldset {
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+.grey-down {
+  position: absolute;
+  top: 17.92px;
+  right: 21.92px;
+  height: 10px;
+  width: 10px;
+  object-fit: contain;
+}
+
+/* / end dropdown css / */
+
+.discard-btn-main .discard-user-btn,
+.discard-btn-main .discard-user-btn:hover {
+  min-width: 83px;
+  margin-right: 10px;
+  min-height: 36px;
+}
+
+.user-save-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.save-btn-main .save-user-btn,
+.save-btn-main .save-user-btn:hover {
+  min-width: 87px;
+  min-height: 36px;
+}
+
+.admin-tabs-main .admin-tab {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins-Regular";
+  color: #111827;
+  text-transform: capitalize;
+  padding: 10px 15px;
+}
+
+.admin-tabs-main .admin-tab.Mui-selected {
+  color: #004dd1;
+}
+
+.admin-tabs-main .MuiTabs-indicator {
+  background-color: #004dd1;
+  height: 2px;
+}
+
+.admin-tabpanel .edit-highlight-text {
+  color: #111827;
+  font-family: "Poppins-Medium";
+  margin-bottom: 4px;
+}
+
+.admin-tabpanel .edit-para-text {
+  margin-bottom: 24px;
+  color: #6b7280;
+}
+
+.admin-tabpanel>.MuiBox-root {
+  padding: 24px 0px;
+}
+
+.file-upload-btn-main .file-upload-btn,
+.file-upload-btn-main .file-upload-btn:hover {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  min-width: 17px;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  bottom: 13px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.file-upload-btn-main {
+  position: relative;
+  max-width: max-content;
+}
+
+.upload-profile-img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+
+.upload-icon-img {
+  height: 10px;
+  width: 10px;
+  object-fit: contain;
+}
+
+.edit-profile-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+/*  */
+
+.user-pass {
+  height: 36px;
+}
+
+.add-user-data-main {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  /* box-shadow: 0px 0px 2px #4f46e5; */
+}
+
+.user-pass fieldset,
+.form-group .Mui-focused fieldset {
+  border-color: #d1d5db !important;
+  border-width: 1px !important;
+}
+
+.submit-btn-main .submit-user-btn,
+.submit-btn-main .submit-user-btn:hover,
+.comman-btn-main .primary-btn,
+.comman-btn-main .primary-btn:hover {
+  min-width: 83px;
+  margin-right: 10px;
+  background-color: #004dd1;
+  color: #ffffff;
+  min-height: 36px;
+  padding: 6px 14px 5px;
+  font-size: 12px;
+  border: 1px solid #004dd1;
+  line-height: 18px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.dashboard-content .admin-page-title {
+  font-size: 26px;
+  font-family: "Poppins-SemiBold";
+  color: #111827;
+}
+
+/* edit profile */
+
+.change-pass-main {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 20px;
+  max-width: 514px;
+  width: 100%;
+}
+
+.change-pass-input-box .form-group .form-control input {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  width: 100%;
+  padding: 5.5px 15px;
+  background-color: transparent;
+}
+
+.change-pass-flex {
+  margin-bottom: 20px;
+}
+
+.add-user-btn {
+  display: flex;
+  align-items: center;
+  background-color: #00235f;
+  padding: 5px 9px 5px 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.add-user-btn svg {
+  margin-right: 5px;
+}
+
+.user-data-head .MuiDataGrid-main .MuiDataGrid-columnHeaders .MuiDataGrid-columnHeadersInner {
+  width: 100%;
+}
+
+.user-head-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+
+.user-head-title h2 {
+  line-height: 19px;
+}
+
+.user-dashboard-link:visited {
+  background-color: #f39c12;
+  font-size: 50px;
+}
+
+.dashboard-header {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins-Medium";
+  color: #ffffff;
+  display: flex;
+  padding: 10px 12px 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.add-user-data-main .user-data-head {
+  border: none;
+}
+
+.menulist .MuiPaper-rounded {
+  width: 10ch !important;
+  left: 1170px !important;
+  top: 260px !important;
+}
+
+.menulist .MuiPaper-rounded ul li {
+  padding: 8px 12px;
+}
+
+.menu-option-li button,
+.menu-option-li button:hover {
+  color: #001a47;
+  background: transparent;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0;
+  font-family: 'Poppins-Medium';
+  justify-content: flex-start;
+  box-shadow: none;
+}
+
+.swal2-backdrop-show .swal2-show {
+  padding: 15px;
+}
+
+.swal2-backdrop-show .swal2-icon-show {
+  margin-top: 0;
+}
+
+.swal2-backdrop-show .swal2-show h2 {
+  padding: 10px 0 0;
+}
+
+.swal2-backdrop-show .swal2-show .swal2-actions {
+  margin: 10px 0 0;
+  justify-content: flex-end;
+}
+
+
+
+

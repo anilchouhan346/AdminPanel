@@ -1,0 +1,16 @@
+{
+    "UPPERCASE": "Username must start with uppercase letter",
+    "VALID_EMAIL_ADDRESS": "Please Enter valid email address",
+    "PRICE_MINUMUM":"please fill the maximum price",
+    "SPECIAL_CHARACTER": "user must  have atleast one special character",
+    "AT_LEAST_DIGIT": "username must contain digit",
+    "SAME_PASSWORD":"Password must be same",
+    "ENTER_NAME":"Please Enter name",
+    "ENTER_PRODUCT_NAME":"Please Enter Product Name",
+    "ENTER_PRODUCT_PRICE":"Please Enter Product Price",
+    "ENTER_EMAIL":"Password Enter email",
+    "ENTER_PASSWORD":"Please Enter password",
+    "ENTER_CONFIRM_PASSWORD":"Please Enter Confirm password",
+    "USER_NAME_LENGTH":"name length must be at least 8 characters long",
+    "LOWER_CASE_CHARACTER":"name length have atleast one lowercase character"
+}
